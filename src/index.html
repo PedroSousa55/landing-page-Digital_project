@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Digital Project</title>
+  </head>
+  <body>
+    <input
+      type="checkbox"
+      id="close-menu"
+      class="close-menu"
+      aria-label="Close menu"
+      role="button"
+    />
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <header>
+      <aside class="menu">
+        <div class="menu-content">
+          <div class="logo-img">
+            <img src="assets/image/img-header/logo.png" alt="logo da pagina" />
+          </div>
+          <nav>
+            <ul onclick="getElementById('close-menu').checked = false">
+              <li><a href="#main">main</a></li>
+              <li><a href="#sobre">about</a></li>
+              <li><a href="#projects">projects</a></li>
+              <li><a href="#contact">contact</a></li>
+              <li><a href="#footer">Footer</a></li>
+            </ul>
+          </nav>
+        </div>
+      </aside>
+    </header>
+    <main>
+      <section id="main" class="main-title section">
+        <div class="text">
+          <h1>project <span>lorum</span></h1>
+        </div>
+        <div class="title-img">
+          <img src="assets/image/img-header/img-main.png" alt="" />
+        </div>
+      </section>
+      <div id="sobre" class="menu-space"></div>
+      <section class="main-sobre section">
+        <div class="sobre-img">
+          <div class="img">
+            <img src="assets/image/section-sobre/img-section1.png" alt="" />
+          </div>
+          <div class="img">
+            <img src="assets/image/section-sobre/img-section2.png" alt="" />
+          </div>
+          <div class="img">
+            <img src="assets/image/section-sobre/img-section3.png" alt="" />
+          </div>
+        </div>
+
+        <div class="sobre-text">
+          <h2>About</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </p>
+          <div class="sobre-button">
+            <button>Read More 🡒</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-declaracao">
+        <h2>main focus/mission statement</h2>
+        <div class="main-content-box">
+          <div class="box-content">
+            <div class="content">
+              <h3>1</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
+                aperiam laboriosam tempore ab earum reiciendis sed error id,
+                soluta optio? Nemo explicabo omnis nihil, laudantium dolorum
+                tempora incidunt quae corporis.
+              </p>
+            </div>
+            <div class="content">
+              <h3>2</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
+                aperiam laboriosam tempore ab earum reiciendis sed error id,
+                soluta optio? Nemo explicabo omnis nihil, laudantium dolorum
+                tempora incidunt quae corporis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="main-project section">
+        <h3>our projects</h3>
+        <div class="grid-gallery">
+          <div class="gallery-img">
+            <img src="assets/image/section-project/img1.png" alt="" />
+            <div class="project-text">
+              <h4>Built Projects</h4>
+              <a href="#">view more 🡒</a>
+            </div>
+          </div>
+          <div class="gallery-img">
+            <img src="assets/image/section-project/img2.png" alt="" />
+          </div>
+          <div class="gallery-img">
+            <img src="assets/image/section-project/img3.png" alt="" />
+          </div>
+          <div class="gallery-img">
+            <img src="assets/image/section-project/img4.png" alt="" />
+          </div>
+          <div class="gallery-img">
+            <img src="assets/image/section-project/img5.png" alt="" />
+          </div>
+        </div>
+
+        <div class="project-button">
+          <button>all project 🡒</button>
+        </div>
+      </section>
+
+      <section id="contact" class="main-contact section">
+        <h4>Contact Us</h4>
+        <div class="main-content">
+          <div class="form-contact">
+            <form action="#" class="form">
+              <input type="text" name="nome" id="nome" placeholder="Name" />
+
+              <input
+                type="tel"
+                name="telefone"
+                id="telefone"
+                placeholder="Phone Number"
+              />
+
+              <input
+                type="email"
+                name="e-mail"
+                id="e-mail"
+                placeholder="E-mail"
+              />
+
+              <input
+                type="text"
+                name="interrese"
+                id="interrese"
+                placeholder="Interested In"
+              />
+
+              <textarea
+                name="comentario"
+                id="comentario"
+                placeholder="Message*"
+                cols="10"
+                rows="7"
+              ></textarea>
+            </form>
+          </div>
+          <div class="contact-img">
+            <img src="assets/image/section-contact/img-contato.png" alt="" />
+          </div>
+        </div>
+        <button class="contact-button">send email</button>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="grid-footer">
+        <div class="footer-logo">
+          <img src="assets/image/img-rodapé/img-logo.png" alt="logo-footer" />
+        </div>
+
+        <div class="footer-information">
+          <h4>Informations</h4>
+          <ul>
+            <li><a href="#">main</a></li>
+            <li><a href="#">gallery</a></li>
+            <li><a href="#">project</a></li>
+            <li><a href="#">contacts</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>contact</h4>
+          <div class="contacts">
+            <img
+              src="assets/image/img-rodapé/img-local.png"
+              alt="icon-localização"
+            />
+            <p>Sample StreetAustin Texas 78704</p>
+          </div>
+          <div class="contacts">
+            <img src="assets/image/img-rodapé/img-tel.png" alt="icon-tell" />
+            <p>512.333.2222</p>
+          </div>
+          <div class="contacts">
+            <img src="assets/image/img-rodapé/img-msg.png" alt="icon-email" />
+            <p>sampleemail@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <p>&copy; 2026 Todos Direitos resevados. Pedro H. S. Rodrigues.</p>
+    </footer>
+  </body>
+</html>
